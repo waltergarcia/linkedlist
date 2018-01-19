@@ -28,7 +28,6 @@ public class List{
         if (isEmpty()) {
             start = newNode;
         } else{
-            // Crea ua copia de la lista.
             Node aux = start;
             while(aux.getNext() != null){
                 aux = aux.getNext();
